@@ -1,0 +1,17 @@
+{ working in cmd
+ python -m venv myvenv                                  >>> Creating virtual Environment
+myvenv/Scripts/activate                                  >>> Activating virtual environment
+pip install Django                                              >>> Installing Django in virtual env
+django-admin startproject (projectname) . >>> We will create project here
+python manage.py startapp (appname)       >>> Creating and starting our  app
+ code .                                                                  >>> To Start VsCode
+}
+{ working in vs code
+go to setting.py of project and include the apps there in installed apps
+go to urls.py of project  then import include there ang give the path of app urls  path("",include('app.urls')),
+create urls.py file  in the app 
+coping urls.py of the project in the urls.py of the app
+connecting the database 
+install database client 
+python manage.py migrate to migrate 
+create 
